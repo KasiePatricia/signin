@@ -24,14 +24,14 @@ body {
     display: block;
     position: absolute;
     height: 0.9px;
-    width: 10%;
+    width: 9%;
     background-color: black;
-    top: 83%;
+    top: 89%;
 }
 .line::before {
-    left: 61%;
+    left: 58%;
 }
 
 .line::after {
-    right: 15%;
+    right: 19%;
 }
