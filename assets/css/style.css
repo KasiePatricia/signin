@@ -18,20 +18,23 @@ body {
     width: 4%;
     height: 4%;
 }
+.main-line {
+    position: relative;
+}
 
 .line::before, .line::after {
     content: "";
     display: block;
     position: absolute;
     height: 0.9px;
-    width: 9%;
+    width: 20%;
     background-color: black;
-    top: 89%;
+    top: 19%;
 }
 .line::before {
-    left: 58%;
+    left: 23%;
 }
 
 .line::after {
-    right: 19%;
+    right: 23%;
 }
