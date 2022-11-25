@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Mulish', sans-serif;
+    height: 100vh;
+    background-color: gray;
+}
+/* signup section */
+.signup-section h2 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+}
+
+.google img {
+    width: 4%;
+    height: 4%;
+}
+
+.line::before, .line::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0.9px;
+    width: 10%;
+    background-color: black;
+    top: 83%;
+}
+.line::before {
+    left: 61%;
+}
+
+.line::after {
+    right: 15%;
+}

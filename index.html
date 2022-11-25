@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Mulish:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- my css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Sign up</title>
+  </head>
+  <body>
+    <main class="container mt-5 mb-5">
+      <section class="row mb-5">
+        <div class="image-section col-sm-12 col-lg-6 position-relative p-0">
+          <picture>
+            <img
+              src="./assets/images/k.webp"
+              alt="Lovely birds"
+              class="img-fluid w-100 h-100"
+            />
+          </picture>
+          <div
+            class="image-content text-center position-absolute top-50 start-0 text-white mt-5 pt-5"
+          >
+            <h3 class="mt-5">Maecenas mattis egestas</h3>
+            <p class="ms-md-5 ms-lg-5">
+             Erdum et malesuada fames ac ante ipsum primis in foucibus uspendisse porta
+            </p>
+          </div>
+        </div>
+        <div class="signup-section col-sm-12 col-lg-6 bg-white p-5">
+          <h2 class="text-center pb-5 mt-5 mb-5">Lovebirds</h2>
+          <div class="signp">
+            <h5 class="text-secondary text-center pb-5 fs-4 ">
+              Welcome to Lovebirds
+            </h5>
+            <form class="p-5">
+                <div class="name">
+                    <label
+                      for="username"
+                      class="form-label text-secondary text-opacity-50"
+                      >User's name or Email</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control border border-top-0 border-start-0 border-end-0 border-secondary border-opacity-25 rounded-0 p-1 text-dark"
+                      id="name"
+                      placeholder="Username or email"
+                      required
+                    />
+                </div>
+                <div class="pass">
+                    <label
+                      for="password"
+                      class="form-label text-secondary text-opacity-50 mt-3"
+                      >Password</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control border border-top-0 border-start-0 border-end-0 border-secondary border-opacity-25 p-1 rounded-0 text-dark"
+                      id="password"
+                      placeholder="*********"
+                      maxlength="15"
+                      required
+                    />
+                </div>
+
+              <div class="text-end pt-2">
+                <a
+                  href="#"
+                  class="text-opacity-75 text-decoration-none fs-6 text-success"
+                  >Forgot password?</a
+                >
+              </div>
+              <button
+                type="submit"
+                class="btn btn-lg ps-5 pe-5 btn-secondary rounded-pill mx-auto mt-4 d-block">
+                Sign in
+              </button>
+            </form>
+            <div class="relative pb-4">
+              <p class="text-center absolute line">or</p>
+            </div>
+            <div class="google d-flex flex-row justify-content-center align-items-center mb-4">
+              <img
+                src="./assets/images/g-icon.png"
+                alt="Google Icon"
+                class="img-fluid me-2"
+              />
+              <span>Sign in with Google</span>
+            </div>
+            <div class="text-secondary text-opacity-75 text-center">
+              <p>
+                New Lovebirds?
+                <a href="#" class="text-opacity-75 text-success pb-1 text-decoration-none border-bottom border-2">Create Account</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
