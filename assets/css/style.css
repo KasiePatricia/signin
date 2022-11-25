@@ -13,7 +13,6 @@ body {
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
 }
-
 .google img {
     width: 4%;
     height: 4%;
@@ -21,7 +20,6 @@ body {
 .main-line {
     position: relative;
 }
-
 .line::before, .line::after {
     content: "";
     display: block;
@@ -34,7 +32,6 @@ body {
 .line::before {
     left: 23%;
 }
-
 .line::after {
     right: 23%;
 }
