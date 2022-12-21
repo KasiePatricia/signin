@@ -44,14 +44,15 @@ const validateForm = () => {
     if(passwordValue === '') {
         setError(password, 'Password is required');
         return
-    } else if (passwordValue.length < 3 ) {
-        setError(password, 'Password must be at least 3 character.');
+    } else if (passwordValue.length < 6 ) {
+        setError(password, 'Password must be at least 6 character.');
         return
     } else {
         setSuccess(password);
+        
     }
-
-        setTimeout(() => alert("Successfull"), 1000);
+    setTimeout(() => alert("Successfull"), 1000);
+    
 };
 
 
