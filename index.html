@@ -48,22 +48,23 @@
             <h5 class="text-secondary text-center pb-4 fs-4 ">
               Welcome to Lovebirds
             </h5>
-            <form class="p-3">
-                <div class="name">
+            <form class="p-3" id="form">
+                <div class="name input-box">
                     <label
                       for="username"
                       class="form-label text-secondary text-opacity-50"
-                      >User's name or Email</label
+                      >Email</label
                     >
                     <input
                       type="text"
                       class="form-control border border-top-0 border-start-0 border-end-0 border-secondary border-opacity-25 rounded-0 p-1 text-dark"
-                      id="name"
-                      placeholder="Username or email"
-                      required
+                      id="email"
+                      placeholder="Email"
+                  
                     />
+                    <div class="error"></div>
                 </div>
-                <div class="pass">
+                <div class="pass input-box">
                     <label
                       for="password"
                       class="form-label text-secondary text-opacity-50 mt-3"
@@ -74,9 +75,8 @@
                       class="form-control border border-top-0 border-start-0 border-end-0 border-secondary border-opacity-25 p-1 rounded-0 text-dark"
                       id="password"
                       placeholder="********"
-                      maxlength="15"
-                      required
                     />
+                    <div class="error"></div>
                 </div>
 
               <div class="text-end pt-2">
@@ -88,7 +88,8 @@
               </div>
               <button
                 type="submit"
-                class="btn btn-lg ps-5 pe-5 btn-secondary rounded-pill mx-auto mt-4 d-block">
+                class="btn btn-lg ps-5 pe-5 btn-secondary rounded-pill mx-auto mt-4 d-block"
+                >
                 Sign in
               </button>
             </form>
@@ -109,6 +110,7 @@
                 <a href="#" class="text-opacity-75 text-success pb-1 text-decoration-none border-bottom border-2">Create Account</a>
               </p>
             </div>
+            
           </div>
         </div>
       </section>
@@ -118,5 +120,6 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

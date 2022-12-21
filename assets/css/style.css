@@ -35,3 +35,19 @@ body {
 .line::after {
     right: 23%;
 }
+
+/* form error */
+.input-box.success input {
+    border-color: #09c372 !important;
+  }
+  
+  .input-box.error input {
+    border-color: #ff3860 !important;
+  }
+  
+  .input-box .error {
+    color: #ff3860;
+    padding-top: 4px;
+    font-size: 11px;
+    height: 13px;
+  }
